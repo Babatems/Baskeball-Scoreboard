@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="scoreboard">
+        <div class="scoreboard1">
+            <h1>HOME</h1>
+            <div class="scorepoint"><h1 id="home-score"></h1></div>
+            <div class="scorepointsadd">
+                <button id="homescore-btn1" onclick="hadd1()">+1</button>
+                <button id="homescore-btn2" onclick="hadd2()">+2</button>
+                <button id="homescore-btn3" onclick="hadd3()">+3</button>
+            </div>
+        </div>
+        <div class="scoreboard2">
+            <h1>GUEST</h1>
+            <div class="scorepoint"><h1 id="guest-score"></h1></div>
+            <div class="scorepointsadd">
+                <button id="guestscore-btn1" onclick="gadd1()">+1</button>
+                <button id="guestscore-btn2" onclick="gadd2()">+2</button>
+                <button id="guestscore-btn3" onclick="gadd3()">+3</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/index.js"></script>
+</html>

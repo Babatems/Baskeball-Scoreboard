@@ -1,0 +1,61 @@
+@import url(https://www.fontspace.com/cursed-timer-ulil-font-f29411);
+
+body {
+    background-color: #111827;
+}
+
+.scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.scoreboard1 h1, .scoreboard2 h1 {
+    width: 149px;
+    height: 36px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.scorepoint {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+}
+
+.scorepoint h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+    margin-left: 18px;
+}
+
+button {
+    margin-top: 20px;
+    width: 45px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    border-color: #9AABD8;
+    background: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
